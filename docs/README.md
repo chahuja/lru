@@ -49,32 +49,32 @@ We compared all the models on the character-level language modeling on 4 differe
 ### Accuracy
 Categorical Cross Entropy (CCE) is used as the loss function and is also used to compare all the models. Lower is better
 
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>PTB</b><img src="results/figs_aaai_comp/ptb_24.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>WP</b><img src="results/figs_aaai_comp/wp_24.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>enwik8</b><img src="results/figs_aaai_comp/wiki_24.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>text8</b><img src="results/figs_aaai_comp/text8_24.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>PTB</b><img src="../src/results/figs_aaai_comp/ptb_24.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>WP</b><img src="../src/results/figs_aaai_comp/wp_24.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>enwik8</b><img src="../src/results/figs_aaai_comp/wiki_24.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>text8</b><img src="../src/results/figs_aaai_comp/text8_24.png" style="width: 100%"></p>
 <p style="clear: both;"></p>
 <p align="center">Visual Representation of Computational Convergence and Accuracy for comparing <b>LRU Variants</b> with 24M parameters</p>
 
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>PTB</b><img src="results/figs_aaai/ptb_24.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>WP</b><img src="results/figs_aaai/wp_24.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>enwik8</b><img src="results/figs_aaai/wiki_24.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>text8</b><img src="results/figs_aaai/text8_24.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>PTB</b><img src="../src/results/figs_aaai/ptb_24.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>WP</b><img src="../src/results/figs_aaai/wp_24.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>enwik8</b><img src="../src/results/figs_aaai/wiki_24.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>text8</b><img src="../src/results/figs_aaai/text8_24.png" style="width: 100%"></p>
 <p style="clear: both;"></p>
 <p align="center">Visual Representation of Computational Convergence and Accuracy for comparing <b>models</b> with 24M parameters</p>
 
 <!--
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>PTB</b><img src="results/figs_aaai_comp/ptb_10.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>WP</b><img src="results/figs_aaai_comp/wp_10.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>enwik8</b><img src="results/figs_aaai_comp/wiki_10.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>text8</b><img src="results/figs_aaai_comp/text8_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>PTB</b><img src="../src/results/figs_aaai_comp/ptb_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>WP</b><img src="../src/results/figs_aaai_comp/wp_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>enwik8</b><img src="../src/results/figs_aaai_comp/wiki_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>text8</b><img src="../src/results/figs_aaai_comp/text8_10.png" style="width: 100%"></p>
 <p style="clear: both;"></p>
 <p align="center">Visual Representation of Computational Convergence and Accuracy for comparing <b>LRU Variants</b> with 10M parameters</p>
 
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>PTB</b><img src="results/figs_aaai/ptb_10.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>WP</b><img src="results/figs_aaai/wp_10.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>enwik8</b><img src="results/figs_aaai/wiki_10.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>text8</b><img src="results/figs_aaai/text8_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>PTB</b><img src="../src/results/figs_aaai/ptb_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>WP</b><img src="../src/results/figs_aaai/wp_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>enwik8</b><img src="../src/results/figs_aaai/wiki_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>text8</b><img src="../src/results/figs_aaai/text8_10.png" style="width: 100%"></p>
 <p style="clear: both;"></p>
 <p align="center">Visual Representation of Computational Convergence and Accuracy for comparing <b>models</b> with 10M parameters</p>
 -->
@@ -83,7 +83,7 @@ Categorical Cross Entropy (CCE) is used as the loss function and is also used to
 Number of epochs to converge to the best possible model based on validation scores. It is desirable to have to require lower number of epochs to converge to the best model.
 
 <p align="center">
-<img src="results/convergence_box_plot.png" style="width: 70%">
+<img src="../src/results/convergence_box_plot.png" style="width: 70%">
 <br>
 Box Plot of Number of Epochs to converge to the best Validation loss.
 </p>
@@ -91,10 +91,10 @@ Box Plot of Number of Epochs to converge to the best Validation loss.
 ## Statistical Efficiency
 Here we look at the generalizing capacity of a model with increasing the size of the dataset. For e.g. we grab 20% 40% 60% and 80% of a particular dataset and then train models on them independently.
 
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>PTB</b><img src="results/figs_aaai_comp/ptb_split_10.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>text8</b><img src="results/figs_aaai_comp/text8_split_10.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="results/figs_aaai/ptb_split_10.png" style="width: 100%"></p>
-<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="results/figs_aaai/text8_split_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>PTB</b><img src="../src/results/figs_aaai_comp/ptb_split_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><b>text8</b><img src="../src/results/figs_aaai_comp/text8_split_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="../src/results/figs_aaai/ptb_split_10.png" style="width: 100%"></p>
+<p align="center" style="float: left; font-size: 14pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="../src/results/figs_aaai/text8_split_10.png" style="width: 100%"></p>
 <p style="clear: both;"></p>
 <p align="center">Visual representation of empirical statistical efficiency for comparing models</p>
 
