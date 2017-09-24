@@ -26,6 +26,9 @@ def train(args, exp_num):
   # Name class to decide the filenames
   name = Name(args, 'cpk', 'model', 'rnn_size', 'num_layers', 'lru_layers', 'num_unrolling', 'num_epochs')
 
+  # Serialize and save args
+  json.dump(args.__dict__, open(name('args', 'args', args.save_dir), 'w'))
+  
   # Start Log
   with open(name('log','log', args.save_dir), 'w') as f:
     f.write("S: %s\n"%(str(datetime.now())))

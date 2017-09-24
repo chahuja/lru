@@ -28,6 +28,13 @@ def loop(args, exp):
   assert args.load, 'Model name not provided'
   assert os.path.isfile(args.load), 'Model file not found'
 
+  ## load args from the saved file if it exists
+  args_filepath = '_'.join(args.load.split('_')[:-1] + ['args.args'])
+  if os.path.isfile(args_filepath):
+    args_dict = json.load(open(args_filepath))
+    args_dict.update({'load':args.load})
+    args.__dict__.update(args_dict)
+  
   ## Training parameters
   delimiter = args.delimiter
   file_path = args.data
