@@ -107,7 +107,6 @@ dependencies:
   - prompt-toolkit==1.0.14
   - resampy==0.1.5
   - scikit-learn==0.18.2
-  - scikits.audiolab==0.11.0
   - torch==0.2.0.post2
 prefix: /home/chahuja/bin/conda3/envs/torch
 
