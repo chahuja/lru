@@ -32,8 +32,9 @@ def loop(args, exp):
   args_filepath = '_'.join(args.load.split('_')[:-1] + ['args.args'])
   if os.path.isfile(args_filepath):
     args_dict = json.load(open(args_filepath))
-    args_dict.update({'load':args.load})
+    args_dict.update({'load':args.load, 'num_sample':args.num_sample, 'cuda':args.cuda})
     args.__dict__.update(args_dict)
+  print(args)
   
   ## Training parameters
   delimiter = args.delimiter
@@ -73,17 +74,17 @@ def loop(args, exp):
       model.eval()
       x_cap, mem = model(x, mem)
       index = Sample.sample_distribution(F.softmax(x_cap).data.cpu().numpy().squeeze())
-      output += data.id2token(index)
+      output += data.id2token(index) + delimiter
       in_value[0,0] = index
 
       # detaching all variables from the model    
       x.detach_()
 
-
     return output
 
   output = generate(model, num_sample, train)
-  print(output.encode(encoding=encoding))
+  print(output.encode(encoding=encoding).decode('utf-8', errors='ignore'))
+
   
 if __name__=='__main__':
   parser = argparse.ArgumentParser()
@@ -129,5 +130,4 @@ if __name__=='__main__':
 
   for i, perm in enumerate(args_perm):
     args.__dict__.update(perm)
-    print(args)
     loop(args, i)
