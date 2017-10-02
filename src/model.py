@@ -274,19 +274,19 @@ class Lattice(nn.Module):
     for t in range(T):
       delta = batch_sizes[t]
       if is_packed:
-        h0 = H0[start:start+delta,:]
+        h0 = H0[start:start+delta]
       else:
-        h0 = H0[:delta,t,:]
+        h0 = H0[:delta,t]
       H1_clone = H1.clone()
       for l in range(L):
-        h1 = H1[0:delta,l,:]
+        h1 = H1[0:delta,l]
         h0, h1 = self.layers[l]((h0,h1))
-        H1_clone[0:delta,l,:] = h1
+        H1_clone[0:delta,l] = h1
       H1 = H1_clone
       if is_packed:
-        H0_clone[start:start+delta,:] = h0
+        H0_clone[start:start+delta] = h0
       else:
-        H0_clone[:delta,t,:] = h0
+        H0_clone[:delta,t] = h0
       start = start+delta
     H0 = H0_clone
 
