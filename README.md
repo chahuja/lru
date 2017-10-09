@@ -1,6 +1,6 @@
 ## Lattice Recurrent Unit
 
-Implementation of Lattice Recurrent Unit as described in this [paper](). I encourage you to check out the [website](http://chahuja.com/lru) to get an overview of the results and observations described in the paper.
+Implementation of Lattice Recurrent Unit as described in this [paper](https://arxiv.org/abs/1710.02254). I encourage you to check out the [website](http://chahuja.com/lru) to get an overview of the results and observations described in the paper.
 
 The code has been written in [PyTorch](http://pytorch.org) and has two key components:
 
