@@ -5,7 +5,9 @@ Implementation of Lattice Recurrent Unit as described in this [paper](). I encou
 The code has been written in [PyTorch](http://pytorch.org) and has two key components:
 
 1. **Language Model**: Given a bunch of sentences, the model learns to predict the next character (word or more generally, token) conditioned on all the characters until the current time step. (Check `class langModel` in `src/model.py`)
-2. **Lattice**: A Lattice Network (unlike LSTM and GRU) supports distinct outputs along depth and time. Hence we implemented `class Lattice` (in `src/model.py`) which supports recurrent units with 2 different outputs. Batches with multiple length sequences are allowed if they are converted to `torch.nn.utils.rnn.PackedSequence` (Currently only works for `batch_first=True` -- I will make it `batch_first` independent as soon as I get time). In addition, `Lattice` also supports multiple layers within an RNN cell (`class LRUxCell` and `class HIGHWAYxCell` in `src/model.py`)
+2. **Lattice**: A Lattice Network (unlike LSTM and GRU) supports distinct outputs along depth and time. Hence we implemented `class Lattice` (in `src/model.py`) which supports recurrent units with 2 different outputs. Batches with multiple length sequences are allowed if they are converted to `torch.nn.utils.rnn.PackedSequence`(*). In addition, `Lattice` also supports multiple layers within an RNN cell (`class LRUxCell` and `class HIGHWAYxCell` in `src/model.py`)
+
+(*)-Currently only works for `batch_first=True` -- I will make it `batch_first` independent as soon as I get time
 
 <p align="center" text-align="center">
 <img src="docs/figs/overview.png" width="60%" height="60%"><br>
