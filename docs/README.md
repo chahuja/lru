@@ -32,10 +32,10 @@ Decoupling weights to create LRU variants
 
 For the sake of comparison of all the variants of LRU, it is a good idea to stack all schematic models side by side. As we keep on decoupling weights, we get more gates ($r$ splits to $r_1$ and $r_2$ and so on)
 
-<p align="center" style="float: left; font-size: 11pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="figs/gru.png" style="width: 80%"><br>GRU</p>
-<p align="center" style="float: left; font-size: 11pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="figs/pslru.png" style="width: 80%"><br>PS-LRU</p>
-<p align="center" style="float: left; font-size: 11pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="figs/rglru.png" style="width: 80%"><br>RG-LRU</p>
-<p align="center" style="float: left; font-size: 11pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="figs/lru.png" style="width: 80%"><br>LRU</p>
+<p align="center" style="float: left; font-size: 11pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="figs/gru.pdf" style="width: 80%"><br>GRU</p>
+<p align="center" style="float: left; font-size: 11pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="figs/pslru.pdf" style="width: 80%"><br>PS-LRU</p>
+<p align="center" style="float: left; font-size: 11pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="figs/rglru.pdf" style="width: 80%"><br>RG-LRU</p>
+<p align="center" style="float: left; font-size: 11pt; text-align: center; width: 47%; margin-right: 1%; margin-bottom: 0.5em;"><img src="figs/lru.pdf" style="width: 80%"><br>LRU</p>
 <p style="clear: both;"></p>
 
 ## Experiments and some Observations
