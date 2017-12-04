@@ -81,3 +81,6 @@ Note: Weights are stored in `-save_dir` with a suffix of `_weights.p`
 Using `-cuda <gpu-id>` for `char.py` and `generate.py` gives the option of choosing a device on a multi-gpu machine. If you wish to run train the model on a cpu, use `<gpu-id> = -1`.
 
 Note: Currently multi-gpu training is not supported.
+
+### Other Implementations
+* A nice gist of the LRU Cell in [Tendorflow](https://gist.github.com/simonnanty/8f6667310a94f0c18bda10a1d5ff578c) by @simonnanty.
