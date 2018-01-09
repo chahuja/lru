@@ -83,4 +83,4 @@ Using `-cuda <gpu-id>` for `char.py` and `generate.py` gives the option of choos
 Note: Currently multi-gpu training is not supported.
 
 ### Other Implementations
-* A nice gist of the LRU Cell in [Tendorflow](https://gist.github.com/simonnanty/8f6667310a94f0c18bda10a1d5ff578c) by @simonnanty.
+* A nice gist of the LRU Cell in [Tensorflow](https://gist.github.com/simonnanty/8f6667310a94f0c18bda10a1d5ff578c) by @simonnanty.
